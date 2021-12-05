@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background-color: #005792;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.section-center {
+    font-family: inherit;
+    min-width: 500px;
+    text-align: center;
+}
+
+.section-center h1 {
+    font-family: inherit;
+    font-size: 2.5rem;
+}
+
+.setters-container {
+    padding: 30px;
+}
+
+.setters-container h3 {
+    font-family: inherit;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
+
+.setters-container h3 {
+    font-size: 1.3rem;
+}
+
+.break-session {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btn-cntr {
+    padding: 20px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.btn:active {
+    transform: scale(.9);
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+i {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn:hover i {
+    color: #005792;
+}
+
+#timer-label {
+    margin: 5px;
+    letter-spacing: 4px;
+}
+
+#time-left {
+    font-family: inherit;
+    font-size: 4rem;
+    margin: 5px;
+    letter-spacing: 4px;
+}
